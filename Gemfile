@@ -6,7 +6,7 @@ gem 'rapidftr_addon_cpims', :git => 'https://github.com/rapidftr/rapidftr-addon-
 
 gem 'rails',           '~> 4.0.9'
 gem 'couchrest_model', '~> 2.0.1'
-gem 'mini_magick',     '~> 3.8'
+gem 'mini_magick', '~> 4.9', '>= 4.9.4'
 gem 'prawn',           '~> 0.8.4'
 gem 'uuidtools',       '~> 2.1.1'
 gem 'validatable',     '~> 1.6.7'
