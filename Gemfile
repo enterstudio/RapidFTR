@@ -5,7 +5,7 @@ gem 'rapidftr_addon', :git => 'https://github.com/rapidftr/rapidftr-addon.git', 
 gem 'rapidftr_addon_cpims', :git => 'https://github.com/rapidftr/rapidftr-addon-cpims.git', :branch => 'master'
 
 gem 'rails',           '~> 4.0.9'
-gem 'couchrest_model', '~> 2.0.1'
+gem 'couchrest_model', '~> 2.0.3'
 gem 'mini_magick',     '~> 3.8'
 gem 'prawn',           '~> 0.8.4'
 gem 'uuidtools',       '~> 2.1.1'
@@ -27,7 +27,7 @@ gem 'daemons',          '~> 1.1.9',  :require => false
 gem 'progress_bar',     '~> 1.0.2',  :require => false
 
 gem 'sass-rails',    '~> 4.0.1'
-gem 'uglifier',      '~> 2.5'
+gem 'uglifier', '~> 2.5', '>= 2.5.3'
 gem 'execjs',        '~> 2.2.0'
 gem 'i18n-js',       '~> 2.1.2'
 gem 'slim',          '~> 2.0.3'
@@ -58,7 +58,7 @@ group :development, :test, :cucumber do
   gem 'nokogiri',           '~> 1.6.3'
   gem 'json_spec',          '~> 1.1.2'
   gem 'pdf-inspector',      '~> 1.1.0'
-  gem 'coveralls', :require => false
+  gem 'coveralls', '>= 0.7.1', :require => false
 
   gem 'pry-rails',          '~> 0.3.2', :platforms => :ruby
   gem 'quiet_assets',       '~> 1.0.3'
