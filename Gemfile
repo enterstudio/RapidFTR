@@ -52,8 +52,8 @@ group :development, :test, :cucumber do
   gem 'rspec-activemodel-mocks', '~> 1.0.1'
 
   gem 'capybara',           '~> 2.3'
-  gem 'cucumber',           '~> 1.3.11'
-  gem 'cucumber-rails',     '~> 1.4.0', :require => false
+  gem 'cucumber', '~> 4.0.0'
+  gem 'cucumber-rails', '~> 2.1.0', :require => false
   gem 'selenium-webdriver', '~> 2.42.0'
   gem 'nokogiri',           '~> 1.6.3'
   gem 'json_spec',          '~> 1.1.2'
