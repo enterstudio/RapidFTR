@@ -4,7 +4,7 @@ source 'https://rails-assets.org'
 gem 'rapidftr_addon', :git => 'https://github.com/rapidftr/rapidftr-addon.git', :branch => 'master'
 gem 'rapidftr_addon_cpims', :git => 'https://github.com/rapidftr/rapidftr-addon-cpims.git', :branch => 'master'
 
-gem 'rails',           '~> 4.0.9'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.4'
 gem 'couchrest_model', '~> 2.0.1'
 gem 'mini_magick',     '~> 3.8'
 gem 'prawn',           '~> 0.8.4'
@@ -12,7 +12,7 @@ gem 'uuidtools',       '~> 2.1.1'
 gem 'validatable',     '~> 1.6.7'
 gem 'dynamic_form',    '~> 1.1.4'
 gem 'sunspot',         '~> 2.1.0'
-gem 'sunspot_rails',   '~> 2.1.0'
+gem 'sunspot_rails', '~> 2.2.0'
 gem 'sunspot_solr',    '~> 2.1.0'
 gem 'rake',            '~> 10.3'
 gem 'cancancan',       '~> 1.7'
@@ -26,7 +26,7 @@ gem 'rufus-scheduler',  '~> 2.0.18', :require => false
 gem 'daemons',          '~> 1.1.9',  :require => false
 gem 'progress_bar',     '~> 1.0.2',  :require => false
 
-gem 'sass-rails',    '~> 4.0.1'
+gem 'sass-rails', '~> 5.0.8'
 gem 'uglifier',      '~> 2.5'
 gem 'execjs',        '~> 2.2.0'
 gem 'i18n-js',       '~> 2.1.2'
@@ -48,12 +48,12 @@ group :development, :test, :cucumber do
   gem 'faker',              '~> 1.4.3'
 
   gem 'rspec',              '~> 3.0'
-  gem 'rspec-rails',        '~> 3.0'
+  gem 'rspec-rails', '~> 3.1', '>= 3.1.0'
   gem 'rspec-activemodel-mocks', '~> 1.0.1'
 
   gem 'capybara',           '~> 2.3'
   gem 'cucumber',           '~> 1.3.11'
-  gem 'cucumber-rails',     '~> 1.4.0', :require => false
+  gem 'cucumber-rails', '~> 1.4.3', :require => false
   gem 'selenium-webdriver', '~> 2.42.0'
   gem 'nokogiri',           '~> 1.6.3'
   gem 'json_spec',          '~> 1.1.2'
