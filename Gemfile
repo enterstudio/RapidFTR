@@ -12,7 +12,7 @@ gem 'uuidtools',       '~> 2.1.1'
 gem 'validatable',     '~> 1.6.7'
 gem 'dynamic_form',    '~> 1.1.4'
 gem 'sunspot',         '~> 2.1.0'
-gem 'sunspot_rails',   '~> 2.1.0'
+gem 'sunspot_rails', '~> 2.2.0'
 gem 'sunspot_solr',    '~> 2.1.0'
 gem 'rake',            '~> 10.3'
 gem 'cancancan',       '~> 1.7'
@@ -51,11 +51,11 @@ group :development, :test, :cucumber do
   gem 'rspec-rails',        '~> 3.0'
   gem 'rspec-activemodel-mocks', '~> 1.0.1'
 
-  gem 'capybara',           '~> 2.3'
+  gem 'capybara', '~> 2.4', '>= 2.4.2'
   gem 'cucumber',           '~> 1.3.11'
-  gem 'cucumber-rails',     '~> 1.4.0', :require => false
+  gem 'cucumber-rails', '~> 1.4.2', :require => false
   gem 'selenium-webdriver', '~> 2.42.0'
-  gem 'nokogiri',           '~> 1.6.3'
+  gem 'nokogiri', '~> 1.16.5'
   gem 'json_spec',          '~> 1.1.2'
   gem 'pdf-inspector',      '~> 1.1.0'
   gem 'coveralls', :require => false
