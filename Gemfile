@@ -48,7 +48,7 @@ group :development, :test, :cucumber do
   gem 'faker',              '~> 1.4.3'
 
   gem 'rspec',              '~> 3.0'
-  gem 'rspec-rails',        '~> 3.0'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'rspec-activemodel-mocks', '~> 1.0.1'
 
   gem 'capybara',           '~> 2.3'
